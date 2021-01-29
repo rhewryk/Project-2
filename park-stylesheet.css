@@ -1,0 +1,120 @@
+
+
+body{
+background:#fcfffd;
+width:5000px;
+height:5500px;
+color:#171010;
+font-family:helvetica;
+font-size:20px;
+text-align:left;
+}
+
+/*
+Different seasons colors
+
+-Winter: #fcfffd and #171010
+-Spring: #1ffb58 and #06230d
+-Summer: #199439 and #063a14
+-Autumn: #af630c and #731414
+*/
+
+
+
+.theimage {
+	width:700px;
+	position:absolute;
+	top:700px;
+	left:2400px;
+}
+
+.viewofplazahotel {
+width:700px;
+position:absolute;
+top:5000px;
+left:200px;
+}
+
+.viewofplazahotel:hover {
+width:900px;
+
+}
+
+.eastsideresivoir {
+width:650px;
+position:absolute;
+top:1500px;
+left:300px;
+}
+
+.aisleoftrees {
+width:600px;
+position:absolute;
+top:3000px;
+left:2200px;
+}
+
+.westsideresivoir {
+width:500px;
+position:absolute;
+bottom:100px;
+left:4900px;
+}
+
+.whitetext {
+color:red;
+position:relative;
+bottom:40px;
+right:50px;
+}
+
+.helpsquare {
+	width:120px;
+height:520px;
+margin:20px;
+background:red;
+position:fixed;
+top:800px; 
+right:30px;
+font-size:20px;
+color:white;
+text-align:center;
+font-weight:lighter;
+padding:10px;
+}
+
+.helpsquare:hover {
+	background:#fcfffd;
+	color:#fcfffd;
+}
+
+
+/*
+
+background color:skyblue
+changes to lightblue in the winter
+
+*/
+
+
+.bluecolor {
+	background:lightblue;
+	position:absolute;
+	width:1000px;
+	height:1000px;
+	top:1500px; left:1700px;
+	border-radius:50%;
+	color:white;
+	text-align:center;
+	text-decoration-style:italic;
+	font-style:italic;
+	font-weight:lighter;
+	transition-duration:0.8s;
+	font-size:25px;
+	padding:10px;
+}
+
+.bluecolor:hover {
+	transform:rotate(365deg);
+
+}
