@@ -160,6 +160,32 @@ changes to lightblue in the winter
 	background:darkgreen;
 }
 
+#bench02 {
+	position:absolute;
+	top:1040px;
+	left:1200px;
+	width:200px;
+	height:25px;
+	background:darkgreen;
+}
+
+#bench03 {
+	position:absolute;
+	top:1080px;
+	left:1200px;
+	width:200px;
+	height:25px;
+	background:darkgreen;
+}
+
+#bench04 {
+	position:absolute;
+	top: 1120px;
+	left:1200px;
+	width:200px;
+	height:25px;
+	background:darkgreen; 
+}
 
 
 
