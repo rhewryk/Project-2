@@ -40,13 +40,11 @@ position:absolute;
 top:5000px;
 left:200px;
 filter:grayscale(100%);
-
 }
 
 .viewofplazahotel:hover {
 width:900px;
 filter:grayscale(0%);
-
 }
 
 .eastsideresivoir {
@@ -144,7 +142,6 @@ changes to lightblue in the winter
 
 .bluecolor:hover {
 	transform:rotate(365deg);
-
 }
 
 
@@ -187,9 +184,41 @@ changes to lightblue in the winter
 	background:darkgreen; 
 }
 
+#bench05 {
+	position:absolute;
+	top:2020px;
+	left: 100px;
+	width: 70px;
+	height:50px;
+	background: darkgreen;
+}
 
+#bench06 {
+	position: absolute;
+	top: 2020px;
+	left: 250px;
+	width: 70px;
+	height: 50px;
+	background: darkgreen;
+}
 
+#bench07 {
+	position: absolute;
+	top: 2290px;
+	left: 100px;
+	width: 30px;
+	height: 50px;
+	background: darkgreen;
+}
 
+#bench08 {
+	position: absolute;
+	top: 2290px;
+	left: 200px;
+	width: 30px;
+	height: 50px;
+	background: darkgreen;
+}
 
 
 
