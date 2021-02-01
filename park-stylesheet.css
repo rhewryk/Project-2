@@ -34,13 +34,12 @@ width:700px;
 position:absolute;
 top:5000px;
 left:200px;
--webkit-filter: grayscale(100%);
-filter:grayscale(100%);
+
 }
 
 .viewofplazahotel:hover {
 width:900px;
-filter:grayscale(0%);
+
 
 }
 
@@ -122,3 +121,22 @@ changes to lightblue in the winter
 	transform:rotate(365deg);
 
 }
+
+
+
+
+
+
+#rectangle {
+	width:200px;
+	height:25px;
+	background:darkgreen;
+}
+
+
+
+
+
+
+
+
