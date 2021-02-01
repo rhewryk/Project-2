@@ -31,7 +31,7 @@ Different seasons colors
 
 .theimage:hover {
 	width:900px;
-	filter:grayscale(0%);
+	filter:color(100);
 }
 
 .viewofplazahotel {
@@ -39,12 +39,13 @@ width:700px;
 position:absolute;
 top:5000px;
 left:200px;
+filter:grayscale(100%);
 
 }
 
 .viewofplazahotel:hover {
 width:900px;
-
+filter:color(100);
 
 }
 
@@ -53,6 +54,11 @@ width:650px;
 position:absolute;
 top:1500px;
 left:300px;
+filter:grayscale(100%);
+}
+
+.eastsideresivoir:hover {
+	filter:color(100);
 }
 
 .aisleoftrees {
@@ -60,6 +66,11 @@ width:600px;
 position:absolute;
 top:3000px;
 left:2200px;
+filter:grayscale(100%);
+}
+
+.aisleoftrees:hover {
+	filter:color(100);
 }
 
 .westsideresivoir {
@@ -67,6 +78,11 @@ width:500px;
 position:absolute;
 bottom:100px;
 left:4900px;
+filter:grayscale(100%);
+}
+
+.westsideresivoir:hover {
+	filter:color(100);
 }
 
 .whitetext {
@@ -110,7 +126,8 @@ changes to lightblue in the winter
 	position:absolute;
 	width:1000px;
 	height:1000px;
-	top:1500px; left:1700px;
+	top:1500px;
+	left:1700px;
 	border-radius:50%;
 	color:white;
 	text-align:center;
@@ -134,7 +151,8 @@ changes to lightblue in the winter
 
 #rectangle {
 	position:absolute;
-
+	top:1000px;
+	left:1200px;
 	width:200px;
 	height:25px;
 	background:darkgreen;
