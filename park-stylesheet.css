@@ -26,6 +26,7 @@ Different seasons colors
 	position:absolute;
 	top:700px;
 	left:2400px;
+	filter:grayscale(100%);
 }
 
 .viewofplazahotel {
@@ -33,10 +34,12 @@ width:700px;
 position:absolute;
 top:5000px;
 left:200px;
+filter:grayscale(100%);
 }
 
 .viewofplazahotel:hover {
 width:900px;
+filter:grayscale(0%);
 
 }
 
