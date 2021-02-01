@@ -153,36 +153,36 @@ changes to lightblue in the winter
 
 #bench01 {
 	position:absolute;
-	top:1000px;
-	left:1200px;
-	width:1000px;
+	top:900px;
+	left:500px;
+	width:100px;
 	height:250px;
 	background:darkgreen;
 }
 
 #bench02 {
 	position:absolute;
-	top:1040px;
-	left:1200px;
-	width:1000px;
+	top:1940px;
+	left:500px;
+	width:100px;
 	height:250px;
 	background:darkgreen;
 }
 
 #bench03 {
 	position:absolute;
-	top:1080px;
-	left:1200px;
-	width:1000px;
+	top:1980px;
+	left:500px;
+	width:100px;
 	height:250px;
 	background:darkgreen;
 }
 
 #bench04 {
 	position:absolute;
-	top: 1120px;
-	left:1200px;
-	width:1000px;
+	top: 2160px;
+	left:500px;
+	width:100px;
 	height:250px;
 	background:darkgreen; 
 }
