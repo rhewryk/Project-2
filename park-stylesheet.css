@@ -29,6 +29,11 @@ Different seasons colors
 	filter:grayscale(100%);
 }
 
+.theimage:hover {
+	width:900px;
+	filter:grayscale(0%);
+}
+
 .viewofplazahotel {
 width:700px;
 position:absolute;
@@ -128,6 +133,8 @@ changes to lightblue in the winter
 
 
 #rectangle {
+	position:absolute;
+
 	width:200px;
 	height:25px;
 	background:darkgreen;
