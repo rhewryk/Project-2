@@ -34,6 +34,7 @@ width:700px;
 position:absolute;
 top:5000px;
 left:200px;
+-webkit-filter: grayscale(100%);
 filter:grayscale(100%);
 }
 
