@@ -148,7 +148,7 @@ changes to lightblue in the winter
 
 
 
-#bench01 {
+.bench01 {
 	position:absolute;
 	top:900px;
 	left:500px;
@@ -157,7 +157,7 @@ changes to lightblue in the winter
 	background:darkgreen;
 }
 
-#bench02 {
+.bench02 {
 	position:absolute;
 	top:1940px;
 	left:500px;
@@ -166,7 +166,7 @@ changes to lightblue in the winter
 	background:darkgreen;
 }
 
-#bench03 {
+.bench03 {
 	position:absolute;
 	top:1980px;
 	left:500px;
@@ -175,7 +175,7 @@ changes to lightblue in the winter
 	background:darkgreen;
 }
 
-#bench04 {
+.bench04 {
 	position:absolute;
 	top: 2160px;
 	left:500px;
@@ -184,7 +184,7 @@ changes to lightblue in the winter
 	background:darkgreen; 
 }
 
-#bench05 {
+.bench05 {
 	position:absolute;
 	top:2020px;
 	left: 100px;
@@ -193,7 +193,7 @@ changes to lightblue in the winter
 	background: darkgreen;
 }
 
-#bench06 {
+.bench06 {
 	position: absolute;
 	top: 2020px;
 	left: 250px;
@@ -202,7 +202,7 @@ changes to lightblue in the winter
 	background: darkgreen;
 }
 
-#bench07 {
+.bench07 {
 	position: absolute;
 	top: 2290px;
 	left: 100px;
@@ -211,7 +211,7 @@ changes to lightblue in the winter
 	background: darkgreen;
 }
 
-#bench08 {
+.bench08 {
 	position: absolute;
 	top: 2290px;
 	left: 200px;
