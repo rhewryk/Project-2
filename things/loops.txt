@@ -1,0 +1,45 @@
+
+
+			/* RENATA! MOVE THIS INTO THE CSS FILE!!! */
+		
+			.loop-left {    				/* the container for both the front and back of the left loop */
+				position: absolute;			
+			    top: 80px;
+			    left: 510px;			    
+			    
+			}
+
+			.loop-left-front {
+				background:transparent; 	/* this DIV has no background it's only colored by its shadow */
+				height:135px;
+				width:30px;
+				border-top-left-radius:190%;
+				border-bottom-left-radius:190%;
+				position:absolute;				
+				top:0;
+				left:0;
+				box-shadow:-19px 0px 0px 0px black; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+				z-index:1;
+
+
+			}
+
+			.loop-left-back {
+				background:transparent;
+				height:135px;
+				width:30px;
+				border-top-right-radius:190%;
+				border-bottom-right-radius:190%;
+				position:absolute;
+				
+				top:0px;
+				left:-20px;
+				box-shadow:19px 0px 0px 0px black;
+				z-index:-1;
+
+			}
+			
+			
+
+
+			

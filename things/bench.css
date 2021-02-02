@@ -1,3 +1,135 @@
+
+			/* RENATA! MOVE THIS INTO THE CSS FILE!!! */
+		
+.loop-left {    				/* the container for both the front and back of the left loop */
+	position: absolute;			
+	top: 80px;
+	left: 490px;		    
+	}
+
+	.loop-left-front {
+		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
+		height:135px;
+		width:30px;
+		border-top-left-radius:190%;
+		border-bottom-left-radius:190%;
+		position:absolute;				
+		top:0;
+		left:0;
+		box-shadow:-16px 0px 0px 0px darkgreen; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+		z-index:-1;
+		}
+
+	.loop-left-back {
+		z-index:-20;
+		background:transparent;
+		height:135px;
+		width:30px;
+		border-top-right-radius:190%;				
+		border-bottom-right-radius:190%;
+		position:absolute;	
+		top:0px;
+		left:-20px;
+		box-shadow:16px 0px 0px 0px darkgreen;
+		}
+	
+
+
+.loop-right {    				/* the container for both the front and back of the right loop */
+	position: absolute;			
+	top: 0px;
+	left: 560px;			    
+	}
+
+	.loop-right-front {
+		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
+		height:135px;
+		width:30px;
+		border-top-left-radius:190%;
+		border-bottom-left-radius:190%;
+		position:absolute;				
+		top:0px;
+		left:0px;
+		box-shadow:-16px 0px 0px 0px darkgreen; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+		z-index:1;
+		}
+
+	.loop-right-back {
+		background:transparent;
+		height:135px;
+		width:30px;
+		border-top-right-radius:190%;				
+		border-bottom-right-radius:190%;
+		position:absolute;	
+		top:0px;
+		left:-20px;
+		box-shadow:16px 0px 0px 0px darkgreen;
+		z-index:-1;
+		}
+
+.loop-left-bottom {
+	position: absolute;			
+	top: 135px;
+	left: -560px;		    
+	}
+
+	.loop-left-bottom-front {
+		background:transparent;
+		height:135px;
+		width:30px;
+		border-top-left-radius:190%;
+		border-bottom-left-radius:190%;
+		position:absolute;
+		top:0px;
+		left:0px;
+		box-shadow:-16px 0px 0px 0px darkgreen;
+	}
+	.loop-left-bottom-back {
+		background:transparent;
+		height:135px;
+		width:30px;
+		border-top-right-radius:190%;				
+		border-bottom-right-radius:190%;
+		position:absolute;	
+		top:0px;
+		left:-20px;
+		box-shadow:16px 0px 0px 0px darkgreen;
+		z-index:-1;
+		}
+
+.loop-right-bottom {
+	position: absolute;			
+	top: 0px;
+	left: 560px;
+	box-shadow: -20px 0px 0px 0px		    
+	}
+
+	.loop-right-bottom-front {
+		background:transparent;
+		height:135px;
+		width:30px;
+		border-top-left-radius:190%;
+		border-bottom-left-radius:190%;
+		position:absolute;
+		top:0px;
+		left:0px;
+		box-shadow:-16px 0px 0px 0px darkgreen;
+	}
+	.loop-right-bottom-back {
+		background:transparent;
+		height:135px;
+		width:30px;
+		border-top-right-radius:190%;				
+		border-bottom-right-radius:190%;
+		position:absolute;	
+		top:0px;
+		left:-20px;
+		box-shadow:16px 0px 0px 0px darkgreen;
+		z-index:-1;
+		}
+
+
+
 .bench-part{
 	position: absolute;
 	background: darkgreen;
@@ -5,117 +137,246 @@
 
 .bench01 {
 	top: 0px;
-	left: 500px;
-	width: 550px;
+	left: 490px;
+	width: 570px;
 	height: 20px;
 }
 
 .bench02 {
 	top: 40px;
-	left: 500px;
-	width: 550px;
+	left: 490px;
+	width: 570px;
 	height: 20px;
 }
 
 .bench03 {
 	top: 80px;
-	left: 500px;
-	width: 550px;
+	left: 490px;
+	width: 570px;
 	height: 20px;
 }
 
-.bench14 {
-	top: 65px;
-	left: 480px;
-	width: 25px;
-	height: 155px;
-	border-radius: 95%;
+
+/* EVERYTHING ABOVE SO BENCH 01, 02 AND 03 ARE THE TOP THREE HORIZONAL GREEN BARS ON THE BENCH */
+
+/* bench-screw01 until bench-screw06 are on the leftmost part of bench */
+.bench-screw01 {
+	top: 8px;
+	left: 515px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
 }
 
-.bench15 {
-	top: 65px;
-	left: 1041px;
-	width: 25px;
-	height: 155px;
-	border-radius: 95%;
-	background: white;
+.bench-screw02 {
+	top: 8px;
+	left: 509px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
 }
 
-.bench16 {
-	top: 65px;
-	left: 483px;
-	width: 15px;
-	height: 155px;
-	border-radius: 95%;
+.bench-screw03 {
+	top: 48px;
+	left: 509px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
 }
 
-.bench17 {
-	top: 65px;
-	left: 478px;
-	width: 15px;
-	height: 155px;
-	border-radius: 95%;
-	background: white;
+.bench-screw04 {
+	top: 48px;
+	left: 515px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
 }
+
+.bench-screw05 {
+	top: 88px;
+	left: 509px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw06 {
+	top: 88px;
+	left: 515px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+/* bench-screw07 until bench-screw12 are on the middle part of bench */
+.bench-screw07 {
+	top: 8px;
+	left: 773px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw08 {
+	top: 8px;
+	left: 767px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw09 {
+	top: 48px;
+	left: 773px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw10 {
+	top: 48px;
+	left: 767px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw11 {
+	top: 88px;
+	left: 773px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw12 {
+	top: 88px;
+	left: 767px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+/* bench-screw13 until bench-screw18 are on the rightmost part of bench */
+.bench-screw13 {
+	top: 8px;
+	left: 1038px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw14 {
+	top: 8px;
+	left: 1032px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw15 {
+	top: 48px;
+	left: 1038px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw16 {
+	top: 48px;
+	left: 1032px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw17 {
+	top: 88px;
+	left: 1038px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.bench-screw18 {
+	top: 88px;
+	left: 1032px;
+	width: 3px;
+	height: 3px; 
+	background: #134c13;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+/*bench 04 is horizontal bar (seat) bench18 is the dark line/shadow of the seat under it */
 
 .bench04 {
 	top: 175px;
-	left: 452px;
-	width: 655px;
+	left: 445px;
+	width: 665px;
 	height: 12.5px; 
 }
 
 .bench18 {
 	top: 185px;
-	left: 452px;
-	width: 655px;
+	left: 445px;
+	width: 665px;
 	height: 10.5px;
 	background: #134c13;
 }
 
-.bench05 {
-	top: 65px;
-	left: 480px;
-	width: 35px;
-	height: 155px;
-	border-radius: 95%;
-	background: white;
-}
-
-.bench06 {
-	top: 65px;
-	left: 1041px;
-	width: 35px;
-	height: 155px;
-	border-radius: 95%;
-}
-
-.bench07 {
-	top: 220px;
-	left: 485px;
-	width: 17px;
-	height: 80px;
-}
-
-.bench08 {
-	top: 220px;
-	left: 763px;
-	width: 17px;
-	height: 50px;
-}
+/*bench09 is the middle bar (loop) */
 
 .bench09 {
-	top: 65px;
-	left: 763px;
-	width: 17px;
-	height: 155px;
+	top: 80px;
+	left: 760px;
+	width: 25px;
+	height: 265px;
 }
+
+/*bench 10, 11, 12 are the vertical bars behind the top three horizontal bars */
 
 .bench10 {
 	top: 15px;
 	left: 507px;
 	width: 14px;
 	height: 85px;
+	background: #134c13;
+	z-index: -1;
 }
 
 .bench11 {
@@ -123,6 +384,8 @@
 	left: 765px;
 	width: 14px;
 	height: 85px;
+	background: #134c13;
+	z-index: -1;
 }
 
 .bench12 {
@@ -130,11 +393,8 @@
 	left: 1030px;
 	width: 14px;
 	height: 85px;
+	background: #134c13;
+	z-index: -1;
 }
 
-.bench13 {
-	top: 220px;
-	left: 1049px;
-	width: 17px;
-	height: 50px;
-}
+
