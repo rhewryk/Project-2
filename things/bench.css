@@ -1,0 +1,140 @@
+.bench-part{
+	position: absolute;
+	background: darkgreen;
+}
+
+.bench01 {
+	top: 0px;
+	left: 500px;
+	width: 550px;
+	height: 20px;
+}
+
+.bench02 {
+	top: 40px;
+	left: 500px;
+	width: 550px;
+	height: 20px;
+}
+
+.bench03 {
+	top: 80px;
+	left: 500px;
+	width: 550px;
+	height: 20px;
+}
+
+.bench14 {
+	top: 65px;
+	left: 480px;
+	width: 25px;
+	height: 155px;
+	border-radius: 95%;
+}
+
+.bench15 {
+	top: 65px;
+	left: 1041px;
+	width: 25px;
+	height: 155px;
+	border-radius: 95%;
+	background: white;
+}
+
+.bench16 {
+	top: 65px;
+	left: 483px;
+	width: 15px;
+	height: 155px;
+	border-radius: 95%;
+}
+
+.bench17 {
+	top: 65px;
+	left: 478px;
+	width: 15px;
+	height: 155px;
+	border-radius: 95%;
+	background: white;
+}
+
+.bench04 {
+	top: 175px;
+	left: 452px;
+	width: 655px;
+	height: 12.5px; 
+}
+
+.bench18 {
+	top: 185px;
+	left: 452px;
+	width: 655px;
+	height: 10.5px;
+	background: #134c13;
+}
+
+.bench05 {
+	top: 65px;
+	left: 480px;
+	width: 35px;
+	height: 155px;
+	border-radius: 95%;
+	background: white;
+}
+
+.bench06 {
+	top: 65px;
+	left: 1041px;
+	width: 35px;
+	height: 155px;
+	border-radius: 95%;
+}
+
+.bench07 {
+	top: 220px;
+	left: 485px;
+	width: 17px;
+	height: 80px;
+}
+
+.bench08 {
+	top: 220px;
+	left: 763px;
+	width: 17px;
+	height: 50px;
+}
+
+.bench09 {
+	top: 65px;
+	left: 763px;
+	width: 17px;
+	height: 155px;
+}
+
+.bench10 {
+	top: 15px;
+	left: 507px;
+	width: 14px;
+	height: 85px;
+}
+
+.bench11 {
+	top: 15px;
+	left: 765px;
+	width: 14px;
+	height: 85px;
+}
+
+.bench12 {
+	top: 15px;
+	left: 1030px;
+	width: 14px;
+	height: 85px;
+}
+
+.bench13 {
+	top: 220px;
+	left: 1049px;
+	width: 17px;
+	height: 50px;
+}
