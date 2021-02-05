@@ -17,11 +17,11 @@
 		top:0;
 		left:0;
 		box-shadow:-16px 0px 0px 0px darkgreen; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
-		z-index:-1;
+		z-index:1;
 		}
 
 	.loop-left-back {
-		z-index:-20;
+		z-index:-1;
 		background:transparent;
 		height:135px;
 		width:30px;
@@ -30,28 +30,28 @@
 		position:absolute;	
 		top:0px;
 		left:-20px;
-		box-shadow:16px 0px 0px 0px darkgreen;
+		box-shadow:16px 0px 0px 0px #134c13;
 		}
 	
 
 
 .loop-right {    				/* the container for both the front and back of the right loop */
 	position: absolute;			
-	top: 0px;
-	left: 560px;			    
+	top: 80px;
+	left: 1050px;			    
 	}
 
 	.loop-right-front {
 		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
-		height:135px;
 		width:30px;
+		height:135px;
 		border-top-left-radius:190%;
 		border-bottom-left-radius:190%;
 		position:absolute;				
 		top:0px;
 		left:0px;
-		box-shadow:-16px 0px 0px 0px darkgreen; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
-		z-index:1;
+		box-shadow:-16px 0px 0px 0px #134c13; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+		z-index:-1;
 		}
 
 	.loop-right-back {
@@ -64,13 +64,13 @@
 		top:0px;
 		left:-20px;
 		box-shadow:16px 0px 0px 0px darkgreen;
-		z-index:-1;
+		z-index:1;
 		}
 
 .loop-left-bottom {
 	position: absolute;			
-	top: 135px;
-	left: -560px;		    
+	top: 215px;
+	left: 490px;		    
 	}
 
 	.loop-left-bottom-front {
@@ -93,14 +93,14 @@
 		position:absolute;	
 		top:0px;
 		left:-20px;
-		box-shadow:16px 0px 0px 0px darkgreen;
+		box-shadow:16px 0px 0px 0px #134c13;
 		z-index:-1;
 		}
 
 .loop-right-bottom {
 	position: absolute;			
-	top: 0px;
-	left: 560px;
+	top: 215px;
+	left: 1050px;
 	box-shadow: -20px 0px 0px 0px		    
 	}
 
@@ -113,8 +113,10 @@
 		position:absolute;
 		top:0px;
 		left:0px;
-		box-shadow:-16px 0px 0px 0px darkgreen;
+		box-shadow:-16px 0px 0px 0px #134c13;
+		z-index:-1;
 	}
+
 	.loop-right-bottom-back {
 		background:transparent;
 		height:135px;
@@ -125,7 +127,7 @@
 		top:0px;
 		left:-20px;
 		box-shadow:16px 0px 0px 0px darkgreen;
-		z-index:-1;
+		z-index:1;
 		}
 
 
@@ -364,8 +366,8 @@
 .bench09 {
 	top: 80px;
 	left: 760px;
-	width: 25px;
-	height: 265px;
+	width: 23px;
+	height: 205px;
 }
 
 /*bench 10, 11, 12 are the vertical bars behind the top three horizontal bars */
@@ -396,5 +398,48 @@
 	background: #134c13;
 	z-index: -1;
 }
+
+.left-front {
+	position: absolute;
+	top: 300px;
+	left: 470px;
+	width: 60px;
+	height: 60px;
+	background: white;
+	z-index: 1;
+}
+
+.left-back {
+	position: absolute;
+	top: 285px;
+	left: 496px;
+	width: 30px;
+	height: 50px;
+	background: white;
+	z-index: -1;
+}
+
+.right-front {
+	position: absolute;
+	top: 300px;
+	left: 1030px;
+	width: 60px;
+	height: 60px;
+	background: white;
+	z-index: 1;
+}
+
+.right-back {
+	position: absolute;
+	top: 285px;
+	left: 1023px;
+	width: 30px;
+	height: 50px;
+	background: white;
+	z-index: -1;
+}
+
+
+
 
 
