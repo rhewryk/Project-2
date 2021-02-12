@@ -78,10 +78,12 @@ margin-bottom:1em;
 }
 
 
-.pre-people-nyc {
+.pre-people-nycimage {
 	position: absolute;
 	left: 20px;
-	top: 150px;
+	top: 450px;
+	width: 85px;
+	height: 250px;
 }
 
 
