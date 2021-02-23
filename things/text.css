@@ -81,23 +81,51 @@ margin-bottom:1em;
 .pre-people {
 	padding: 1em;
 	position: fixed;
-	left: 25px;
-	top: 450px;
-	width: 125px;
-	height: 375px;
+	right: 25px;
+	top: 400px;
+	width: 195px;
+	height: 515px;
 }
-
-
 
 .post-people {
 	padding: 1em;
 	position: fixed;
 	right: 25px;
-	top: 450px;
-	width: 125px;
-	height: 375px;
+	top: 400px;
+	width: 195px;
+	height: 515px;
 }
 
+.caption {
+	font-size: 0.8em;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: ff-scala-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+	.image-container {
+		position: relative;
+		max-width: 500px;
+		margin: 30px auto 0;
+	}
+
+	.pre-col,
+	.post-col {
+		max-width:100%;
+	}
+
+	.pre-col {
+		transition: opacity 0.5s;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.image-container:hover > .pre-col {
+		opacity: 0;
+	}
 
 
 
@@ -120,8 +148,8 @@ margin-bottom:1em;
 
 .all-text {
 
-	max-width: 770px;
-	margin: 260px auto 2em;
+	max-width: 785px;
+	margin: 240px 2em 2em;
 	line-height: 30px;
 	font-weight: lighter;
 	color: rgb(18, 62, 24)

@@ -1,0 +1,182 @@
+.part-of-lamp {
+	position: absolute;
+	background: #3a423b;
+}
+
+/* vertical lines */
+
+	.lamp01 {
+		width: 16px;
+		height: 300px;
+		top: 210px;
+		left: 51.5px;
+	}
+
+	.lamp02 {
+		width: 2px;
+		height: 300px;
+		top: 210px;
+		left: 65px;
+		background: #2d2c2c;
+	}
+
+	.lamp03 {
+		width: 1.5px;
+		height: 300px;
+		top: 210px;
+		left: 61.5px;
+		background: #2d2c2c;
+	}
+
+	.lamp04 {
+		width: 1px;
+		height: 300px;
+		top: 210px;
+		left: 58px;
+		background: #2d2c2c;
+	}
+
+	.lamp05 {
+		width: 1.2px;
+		height: 300px;
+		top: 210px;
+		left: 54px;
+		background: #2d2c2c;
+	}
+ 
+/* part under main shaft */
+
+	.lamp06 {
+		width: 20px;
+		height: 35px;
+		top: 490px;
+		left: 49.5px;
+		border-radius: 0 0 5px 5px;
+	}
+
+	.lamp07 {
+		width: 2px;
+		height: 37px;
+		top: 490px;
+		left: 67px;
+		background: #2d2c2c;
+		border-radius: 0 0 100px;
+	}
+
+/* semi-circle and rounded part before next shaft */
+
+	.lamp08 {
+		left: 41.5px;
+		top: 521.5px;
+		width: 35px;
+		height: 10px;
+		border-radius: 50px 50px 0 0;
+	}
+
+	.lamp09 {
+		left: 48.5px;
+		top: 522px;
+		width: 22px;
+		height: 1px;
+		background: #2d2c2c;
+		border-radius: 70px 70px 5px 5px;
+	}
+
+	.lamp10 {
+		left: 41.5px;
+		top: 531px;
+		width: 35px;
+		height: 3px;
+		background: #2d2c2c;
+		border-radius: 25px 25px 50px 50px;
+		z-index: 1;
+	}
+
+	.lamp11 {
+		left: 36.5px;
+		top: 532px;
+		width: 44px;
+		height: 18px;
+		border-radius: 20px 20px 20px 20px;
+		z-index: 0;
+	}
+
+	.lamp12 {
+		left: 39.5px;
+		top: 547.5px;
+		width: 38px;
+		height: 6px;
+		border-radius: 0 0 80px 80px;
+		background: #2d2c2c;
+		z-index: 1;
+	}
+
+/* bottom shaft */
+
+	.lamp13 {
+		left: 41.5px;
+		top: 551px;
+		width: 34px;
+		height: 120px;
+		z-index: 0;
+	}
+
+	.lamp14 {
+		left: 40.5px;
+		top: 670px;
+		width: 36px;
+		height: 5px;
+		background: #2d2c2c;
+	}
+
+	.lamp15 {
+		left: 38.5px;
+		top: 675px;
+		width: 40px;
+		height: 6px;
+	}
+
+	.lamp16 {
+
+	}
+
+	.lamp17 {
+		background: transparent; 	/* this DIV has no background it's only colored by its shadow */
+		height: 115px;
+		width: 28px;
+		border-top-left-radius: 190%;
+		border-bottom-left-radius: 190%;
+		position: absolute;				
+		top: 680px;
+		left: 20px;
+		transform: rotate(190deg);
+		box-shadow: -16px 0px 0px -2px #134c13; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
