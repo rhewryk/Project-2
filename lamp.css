@@ -239,18 +239,20 @@
 		height: 50px;
 		background: #f2ce8d;
 		border-radius: 80% 80% 120% 120%;
+		z-index: 0;
 	}
 
 	.lamp30 {
-		left: 42.5px;
+		left: 44px;
 		top: 197px;
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 33px;
 		background: #f2ce8d;
 		border-radius: 120% 120% 120% 120%;
+		z-index: 0;
 	}
 
-/* thingy around the actual bulb */
+/* thingy above the actual bulb */
 
 	.lamp31 {
 		left: 42px;
@@ -283,27 +285,83 @@
 		width: 40px;
 		height: 4px;
 		background: #2d2c2c;
+		z-index: 1;
 	}
 
-/* thingy around the actual bulb */
+/* thingy around the actual bulb (left side) */
 
 	.lamp35 {
-		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
-		height:60px;
-		width:14px;
-		border-top-left-radius:190%;
-		border-bottom-left-radius:190%;
-		position:absolute;				
-		top:188px;
-		left:50px;
-		transform: rotate(-5deg);
-		box-shadow:-16px 0px 0px 0px darkgreen; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
-		z-index:1;
+		background: #3a423b;
+		height: 50px;
+		width: 3px;
+		border-top-left-radius: 100%;
+		border-bottom-left-radius: 100%;
+		transform: rotate(-10deg);
+		top: 201px;
+		left: 43.5px;
+		box-shadow: -20px #3a423b;
+		z-index: 0;
 	}
 
 	.lamp36 {
-		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
-		height:60px;
+		left: 42px;
+		top: 201px;
+		width: 0;
+      	height: 0;
+      	border-top: 16px solid #3a423b;
+      	border-right: 12px solid #f2ce8d;
+      	z-index: -2;
+	}
+
+	.lamp37 {
+		left: 48px;
+		top: 239px;
+		width: 0;
+		height: 0;
+		border-top: 14px solid #f2ce8d ;
+		border-left: 14px solid #f2ce8d;
+		z-index: -1;
+	}
+
+/* thingy around the actual bulb (left side) */
+	
+	.lamp38 {
+		background: #3a423b;
+		height: 50px;
+		width: 3px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		transform: rotate(10deg);
+		top: 201px;
+		left: 73px;
+		box-shadow: -20px #3a423b;
+		z-index: 0;
+	}
+	.lamp39 {
+		left: 65px;
+		top: 201px;
+		width: 0;
+      	height: 0;
+      	border-left: 12px solid #f2ce8d;
+      	border-top: 19px solid #3a423b;
+      	z-index: -2;
+	}
+
+	.lamp40 {
+		left: 57.5px;
+		top: 235px;
+		width: 0;
+		height: 0;
+		border-top: 15px solid #f2ce8d ;
+		border-right: 13px solid #f2ce8d;
+		z-index: -1;
+	}
+
+
+/*
+	.lamp36 {
+		background:white; 	/* this DIV has no background it's only colored by its shadow */
+/*		height:60px;
 		width:14px;
 		border-top-left-radius:190%;
 		border-bottom-left-radius:190%;
@@ -311,11 +369,11 @@
 		top:188px;
 		left:60px;
 		transform: rotate(185deg);
-		box-shadow:-16px 0px 0px 0px darkgreen; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
-		z-index:1;
-
+		box-shadow:-16px 0px 0px 0px; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+/*		z-index:1;
 	}
 
+	*/
 
 
 

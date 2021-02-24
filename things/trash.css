@@ -1,0 +1,369 @@
+.part-of-trash-can {
+	position: absolute;
+	background: darkgreen;
+	height: 207px;
+}
+
+	.trash01 {
+		width: 7px;
+		top: 125px;
+		left: 197.5px;
+	}
+
+	.trash02 {
+		width: 7px;
+		top: 125px;
+		left: 210px;
+	}
+	.trash03 {
+		width: 7px;
+		top: 127px;
+		left: 225px;
+	}
+
+	.trash04 {
+		width: 7px;
+		top: 129px;
+		left: 240px;
+	}
+
+	.trash05 {
+		width: 7px;
+		top: 131px;
+		left: 255px;
+	}
+
+	.trash06 {
+		width: 7px;
+		top: 129px;
+		left: 270px;
+	}
+	.trash07 {
+		width: 7px;
+		top: 127px;
+		left: 285px;
+	}
+
+	.trash08 {
+		width: 7px;
+		top: 125px;
+		left: 300px;
+	}
+
+	.trash09 {
+		width: 7px;
+		top: 125px;
+		left: 314px;
+	}
+
+	.trash10 {
+		width: 6px;
+		top: 120px;
+		left: 326.5px;
+	}
+
+.shadow-can {
+	position: absolute;
+	width: 3px;
+	height: 210px;
+	background: #134c13;
+}
+
+	.trash-shadow01 {
+		top: 123px;
+		left: 201px;
+	}
+
+	.trash-shadow02 {
+		top: 125px;
+		left: 214px;
+	}
+
+	.trash-shadow03 {
+		top: 127px;
+		left: 229px;
+	}
+
+	.trash-shadow04 {
+		top: 128px;
+		left: 244px;
+	}
+
+	.trash-shadow05 {
+		top: 131px;
+		left: 259px;
+	}
+
+	.trash-shadow06 {
+		top: 128px;
+		left: 270px;
+	}
+
+	.trash-shadow07 {
+		top: 127px;
+		left: 285px;
+	}
+
+	.trash-shadow08 {
+		top: 125px;
+		left: 300px;
+	}
+
+	.trash-shadow09 {
+		top: 125px;
+		left: 314px;
+	}
+
+	.trash-shadow10 {
+		top: 124px;
+		left: 325px;
+	}
+
+
+.loops {    				/* the container for both the front and back of the left loop */
+	position: absolute;			
+	top: 271px;
+	left: 250px;		    
+	}
+
+	
+	.loop-top01 {
+		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
+		height:135px;
+		width:30px;
+		border-top-left-radius:190%;
+		border-bottom-left-radius:190%;
+		position:absolute;				
+		top:250px;
+		left:250px;
+		transform: rotate(-90deg);
+		box-shadow:-16px 0px 0px 0px darkgreen; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+		z-index:1;
+		}
+
+.loop-top02 {
+		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
+		height:135px;
+		width:30px;
+		border-top-left-radius:250%;
+		border-bottom-left-radius:250%;
+		position:absolute;				
+		top:255px;
+		left:250px;
+		transform: rotate(-90deg);
+		box-shadow:-16px 0px 0px 0px #134c13; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+		z-index:-1;
+		}
+
+	.loop-top03 {
+		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
+		height:105px;
+		width:25px;
+		border-top-left-radius:150%;
+		border-bottom-left-radius:150%;
+		position:absolute;				
+		top:285px;
+		left:253px;
+		transform: rotate(-90deg);
+		box-shadow:-16px 0px 0px -2px #134c13; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+		z-index:-3;
+		}
+
+	.loop-top04 {
+		background:transparent; 	/* this DIV has no background it's only colored by its shadow */
+		height:105px;
+		width:25px;
+		border-top-left-radius:150%;
+		border-bottom-left-radius:150%;
+		position:absolute;				
+		top:278px;
+		left:253px;
+		transform: rotate(-90deg);
+		box-shadow:-16px 0px 0px 0px #072f07; /* code adapted from: https://html-css-js.com/css/generator/box-shadow/ */
+		z-index:-2;
+		}
+
+	.loop-top05 {
+		z-index:2;
+		background:transparent;
+		height:135px;
+		width:30px;
+		border-top-right-radius:190%;				
+		border-bottom-right-radius:190%;
+		position:absolute;	
+		top:70px;
+		left:250px;
+		transform: rotate(-270deg);
+		box-shadow:16px 0px 0px 0px darkgreen;
+		}
+
+	.loop-top06 {
+		z-index: 1;
+		background: transparent;
+		height: 135px;
+		width: 30px;
+		border-top-right-radius: 190%;				
+		border-bottom-right-radius: 190%;
+		position: absolute;	
+		top: 74px;
+		left: 250px;
+		transform: rotate(-270deg);
+		box-shadow: 16px 0px 0px 0px #134c13;
+		}
+
+/* loop-bottom01 and loop-bottom02 are the two green end pieces on the top on either side of the trash can*/
+	.loop-bottom01 {
+		z-index: -5;
+		background: transparent;
+		height: 70px;
+		width: 30px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		position: absolute;
+		top: 110px;
+		left: 170px;
+		transform: rotate(-10deg);
+		box-shadow: 16px 0px 0px -5px darkgreen;
+	}
+
+	.loop-bottom02 {
+		z-index: -5;
+		background: transparent;
+		height: 70px;
+		width: 30px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		position: absolute;
+		top: 110px;
+		left: 330px;
+		transform: rotate(-170deg);
+		box-shadow: 16px 0px 0px -5px darkgreen;
+	}
+
+	.loop-bottom03 {
+		z-index: -5;
+		background: transparent;
+		height: 70px;
+		width: 30px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		position: absolute;
+		top: 107px;
+		left: 300px;
+		transform: rotate(-180deg);
+		box-shadow: 16px 0px 0px -5px darkgreen;
+	}
+
+	.loop-bottom04 {
+		z-index: -5;
+		background: transparent;
+		height: 70px;
+		width: 30px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		position: absolute;
+		top: 109px;
+		left: 200px;
+		transform: rotate(-7deg);
+		box-shadow: 16px 0px 0px -5px darkgreen;
+	}
+
+	.loop-bottom05 {
+		z-index: 5;
+		background: transparent;
+		height: 155px;
+		width: 20px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		position: absolute;
+		top: 50px;
+		left: 256px;
+		transform: rotate(-90deg);
+		box-shadow: 16px 0px 0px 0px green;
+		opacity: 100%;
+	}
+
+	.loop-bottom06 {
+		z-index: 5;
+		background: transparent;
+		height: 150px;
+		width: 15px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		position: absolute;
+		top: 38px;
+		left: 258px;
+		transform: rotate(-270deg);
+		box-shadow: 10px 0px 0px 5px darkgreen;
+		opacity: 100%;
+	}
+
+	.loop-bottom07 {
+		z-index: 3;
+		background: transparent;
+		height: 150px;
+		width: 15px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		position: absolute;
+		top: 42px;
+		left: 258px;
+		transform: rotate(-270deg);
+		box-shadow: 10px 0px 0px 5px #065106;
+		opacity: 100%;
+	}
+
+	.loop-bottom08 {
+		z-index: 2;
+		background: transparent;
+		height: 155px;
+		width: 20px;
+		border-top-right-radius: 100%;
+		border-bottom-right-radius: 100%;
+		position: absolute;
+		top: 55px;
+		left: 258px;
+		transform: rotate(-90deg);
+		box-shadow: 16px 0px 0px 0px #072f07;
+		opacity: 100%;
+	}
+
+
+.background-color01 {
+	background: green;
+	z-index: -5;
+	height: 210px;
+	width: 125px;
+	top: 125px;
+	left: 202px;
+	position: absolute;
+}
+
+.background-color02 {
+	background: green;
+	z-index: -5;
+	height: 20px;
+	width: 100px;
+	top: 325px;
+	left: 210px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

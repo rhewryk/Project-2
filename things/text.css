@@ -1,0 +1,163 @@
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    }
+
+.title-area {
+	position:absolute;
+	color:rgba(0, 129, 19, 1); /*(255,0,0,0.7);*/
+	top:0; 
+	width:100%;
+	height:210px;
+	left:calc(10px - 100vw);
+	padding: 1em;
+	text-align: center;
+	font-size: 18px;
+
+	cursor:pointer;
+	transition:all 0.4s;
+	left: 0;
+}
+
+.title-area.active {
+	left:0;
+}
+
+ html, body {
+ 	font-size: 20px;
+ 	line-height:25px;
+	font-family: ff-scala, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+
+ h1 {
+ 	font-size: 45px;
+ 	padding-top: 1.7em;
+	font-family: ff-scala-sans-pro, sans-serif;
+	font-weight: 400; /* font-weight: 400;*/
+	font-style: normal; /* font-style: italic; */
+	letter-spacing: 3.5px;
+ }
+
+ h2 {
+ 	padding-top: .8em;
+ 	font-family: ff-scala, sans-serif;
+ 	font-weight: 400;
+ 	font-style: italic;
+ }
+
+
+h3 {
+	font-size: 15px;
+	padding-top: 1.4em;
+	font-weight: 400;
+	font-family: ff-scala-sans-pro, sans-serif;
+	font-style: normal;
+	position: absolute;
+	top: 3.3px;
+	left: 290px;
+}
+
+h4 {
+	font-size: 15px;
+	padding-top: 1.4
+	padding-bottom: 3.5em;
+	font-weight: 400;
+	font-family: ff-scala-sans-pro, sans-serif;
+	font-style: normal;
+	position: absolute;
+	top: 24px;
+	left: 620px;
+}
+
+p {
+margin-bottom:1em;
+}
+
+
+.pre-people {
+	padding: 1em;
+	position: fixed;
+	right: 25px;
+	top: 400px;
+	width: 195px;
+	height: 515px;
+}
+
+.post-people {
+	padding: 1em;
+	position: fixed;
+	right: 25px;
+	top: 400px;
+	width: 195px;
+	height: 515px;
+}
+
+.caption {
+	font-size: 0.8em;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: ff-scala-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+	.image-container {
+		position: relative;
+		max-width: 500px;
+		margin: 30px auto 0;
+	}
+
+	.pre-col,
+	.post-col {
+		max-width:100%;
+	}
+
+	.pre-col {
+		transition: opacity 0.5s;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.image-container:hover > .pre-col {
+		opacity: 0;
+	}
+
+
+
+/*.title {
+	margin-left: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 22pt;
+}
+
+.subheader {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 16pt;
+
+}*/
+
+
+.all-text {
+
+	max-width: 785px;
+	margin: 240px 2em 2em;
+	line-height: 30px;
+	font-weight: lighter;
+	color: rgb(18, 62, 24)
+
+}
+
+/*.all-text:hover {
+	font-family: "Scala Sans Pro";
+	font-size-adjust: 5%;
+}
+*/
