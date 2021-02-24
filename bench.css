@@ -1,7 +1,7 @@
 .loop-left {    				/* the container for both the front and back of the left loop */
 	position: absolute;			
-	top: 80px;
-	left: 490px;		    
+	top: 95px;
+	left: 510px;		    
 	}
 
 	.loop-left-front {
@@ -34,8 +34,8 @@
 
 .loop-right {    				/* the container for both the front and back of the right loop */
 	position: absolute;			
-	top: 80px;
-	left: 1050px;			    
+	top: 95px;
+	left: 1030px;			    
 	}
 
 	.loop-right-front {
@@ -66,8 +66,8 @@
 
 .loop-left-bottom {
 	position: absolute;			
-	top: 215px;
-	left: 490px;		    
+	top: 230px;
+	left: 510px;		    
 	}
 
 	.loop-left-bottom-front {
@@ -96,8 +96,8 @@
 
 .loop-right-bottom {
 	position: absolute;			
-	top: 215px;
-	left: 1050px;
+	top: 230px;
+	left: 1030px;
 	box-shadow: -20px 0px 0px 0px		    
 	}
 
@@ -364,7 +364,7 @@
 	top: 80px;
 	left: 760px;
 	width: 23px;
-	height: 205px;
+	height: 220px;
 }
 
 /*bench 10, 11, 12 are the vertical bars behind the top three horizontal bars */
@@ -399,9 +399,9 @@
 .left-front {
 	position: absolute;
 	top: 300px;
-	left: 470px;
+	left: 486px;
 	width: 60px;
-	height: 60px;
+	height: 90px;
 	background: white;
 	z-index: 1;
 }
@@ -409,7 +409,7 @@
 .left-back {
 	position: absolute;
 	top: 285px;
-	left: 496px;
+	left: 507px;
 	width: 30px;
 	height: 50px;
 	background: white;
@@ -419,9 +419,9 @@
 .right-front {
 	position: absolute;
 	top: 300px;
-	left: 1030px;
+	left: 1005px;
 	width: 60px;
-	height: 60px;
+	height: 90px;
 	background: white;
 	z-index: 1;
 }
@@ -429,7 +429,7 @@
 .right-back {
 	position: absolute;
 	top: 285px;
-	left: 1023px;
+	left: 1010px;
 	width: 30px;
 	height: 50px;
 	background: white;
@@ -438,5 +438,73 @@
 
 
 
+/* all of these parts are additional parts to make the bench more life-like */
 
+	.bench20 {
+		top: 20px;
+		left: 490px;
+		width: 570px;
+		height: 2px;
+		background: #0d280d;
+	}
 
+	.bench21 {
+		top: 60px;
+		left: 490px;
+		width: 570px;
+		height: 2px;
+		background: #0d280d;
+	}
+
+	.bench22 {
+		top: 100px;
+		left: 490px;
+		width: 570px;
+		height: 2px;
+		background: #0d280d;
+	}
+
+	.bench23 {
+		top: 195px;
+		left: 445px;
+		width: 665px;
+		height: 2px;
+		background: #0d280d;
+		z-index: -1;
+	}
+
+	.bench24 {
+		top: 185px;
+		left: 431px;
+		width: 0px;
+		height: 0px;
+		border-left: 16px solid white;
+		border-top: 12px solid #134c13;
+	}
+
+	.bench25 {
+		top: 175px;
+		left: 431px;
+		width: 0px;
+		height: 0px;
+		border-right: 16px solid transparent;
+		border-top: 10px solid white;
+	}
+
+	.bench26 {
+		top: 175px;
+		left: 1110px;
+		width: 0px;
+		height: 0px;
+		border-left: 16px solid transparent;
+		border-top: 10px solid white;
+	}
+
+	.bench27 {
+		top: 185px;
+		left: 1110px;
+		width: 0px;
+		height: 0px;
+		border-right: 16px solid white;
+		border-top: 12px solid #134c13;
+	}
