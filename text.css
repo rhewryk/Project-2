@@ -40,6 +40,7 @@
 	font-weight: 400; /* font-weight: 400;*/
 	font-style: normal; /* font-style: italic; */
 	letter-spacing: 3.5px;
+	position:absolute;
  }
 
  h2 {
@@ -47,6 +48,7 @@
  	font-family: ff-scala, sans-serif;
  	font-weight: 400;
  	font-style: italic;
+ 	position:absolute;
  }
 
 
@@ -58,6 +60,7 @@ h3 {
 	font-style: normal;
 	top: 3.3px;
 	left: 320px;
+	position:absolute;
 }
 
 h4 {
@@ -69,6 +72,7 @@ h4 {
 	font-style: normal;
 	top: 24px;
 	left: 620px;
+	position:absolute;
 }
 
 p {
