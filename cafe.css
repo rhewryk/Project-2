@@ -1,0 +1,16 @@
+.hello {
+	font-family: times new roman;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	text-align: center;
+	color: black;
+	top: 2em;
+	margin: center;
+}
+
+
+.hello: hover {
+	color: red;
+	cursor: pointer;
+}
