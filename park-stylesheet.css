@@ -158,12 +158,14 @@ changes to lightblue in the winter
 
 #trash1 {
 	position: relative;
-	transform: translateX(150px);
+	transform: translateX(400px);
 	transform: translateY(2000px);
 }
 
 #lamp1 {
 	position: relative;
+	transform: translateX(500px);
+	transform: translateY(2500px);
 }
 
 
