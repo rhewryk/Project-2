@@ -5,98 +5,145 @@
     }
 
 .title-area {
-	position:absolute;
-	color:rgba(0, 129, 19, 1); /*(255,0,0,0.7);*/
-	top:0; 
-	width:100%;
-	height:210px;
-	left:calc(10px - 100vw);
-	padding: 1em;
-	text-align: center;
+	position: absolute;
+	color: rgba(0, 129, 19, 1); /*(255,0,0,0.7);*/
+	top: 0; 
+	width: 100%;
+	height: 210px;
+	left: calc(10px - 100vw);
+	text-align: left;
 	font-size: 18px;
-
-	cursor:pointer;
-	transition:all 0.4s;
+	max-width: 1000px;
+	margin: auto;
 	left: 0;
 }
 
 .title-area.active {
-	left:0;
+	left: 0;
 }
 
  html, body {
  	font-size: 20px;
- 	line-height:25px;
+ 	line-height: 26px;
 	font-family: ff-scala, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	max-width: 1000px;
+	min-width: 300px;
+	padding-top: 6.4em;
  }
 
 
  h1 {
  	font-size: 45px;
- 	padding-top: 1.7em;
+ 	padding-top: .9em;
+ 	padding-left: .4em;
 	font-family: ff-scala-sans-pro, sans-serif;
-	font-weight: 400; /* font-weight: 400;*/
+	font-weight: 700; /* font-weight: 400;*/
 	font-style: normal; /* font-style: italic; */
-	letter-spacing: 3.5px;
-	position:absolute;
+	letter-spacing: 8px;
+	position: absolute;
+	max-width: 15px;
+	text-align: left;
+	line-height: 1em;
  }
 
  h2 {
- 	padding-top: .8em;
+ 	padding-top: 7em;
+ 	padding-left: 5.4em;
  	font-family: ff-scala, sans-serif;
  	font-weight: 400;
  	font-style: italic;
- 	position:absolute;
+ 	position: absolute;
+ 	text-align: left;
  }
 
 
 h3 {
+	padding-top: 15.5em;
+	padding-left: 1em;
 	font-size: 15px;
-	padding-top: 1.4em;
 	font-weight: 400;
 	font-family: ff-scala-sans-pro, sans-serif;
 	font-style: normal;
-	top: 3.3px;
-	left: 320px;
-	position:absolute;
+	position: absolute;
 }
 
 h4 {
+	padding-left: 1em;
+	padding-top: 16.9em;
 	font-size: 15px;
-	padding-top: 1.4
-	padding-bottom: 3.5em;
 	font-weight: 400;
 	font-family: ff-scala-sans-pro, sans-serif;
 	font-style: normal;
-	top: 24px;
-	left: 620px;
-	position:absolute;
+	position: absolute;
 }
 
 p {
-margin-bottom:1em;
+margin-bottom: 1em;
 }
 
-
-.pre-people {
+/* image on the right of screen*/
+/*.pre-people {
 	padding: 1em;
 	position: fixed;
-	right: 25px;
-	top: 400px;
-	width: 214.5px;
-	height: 566.5px;
-}
+	right: 30px;
+	top: 300px;
+	width: 246.675px;
+	height: 651.475px;
+	cursor: pointer;
+}*/
+
+/* image on the right of screen after you scroll a little*/
+/*.post-people {
+	padding: 1em;
+	position: fixed;
+	right: 30px;
+	top: 300px;
+	width: 246.675px;
+	height: 651.475px;
+	cursor: pointer;
+}*/
 
 .post-people {
-	padding: 1em;
 	position: fixed;
-	right: 25px;
-	top: 400px;
-	width: 214.5px;
-	height: 566.5px;
+	top: 70px;
+	right: 20px;
+	width: 443px;
+	height: 1602px;
+	margin: auto;
 }
+
+.map-container {
+	position: relative;
+	max-width: 400px;
+	margin: 30px 25px 25px 400px;
+	cursor: pointer;
+}
+
+	.pre-people,
+	.post-people {
+		max-width: 80%;
+		max-height: 150%;
+	}
+
+	.pre-people {
+		margin: auto;
+		transition: opacity 0.5s;
+		position: fixed;
+		top: 70px;
+		right: 20px;
+		width: 443px;
+		height: 1602px;
+	}
+
+
+	.map-container:hover > .pre-people {
+		opacity: 0;
+		scroll-behavior: smooth;
+	}
+
+
 
 .caption {
 	font-size: 0.8em;
@@ -111,14 +158,16 @@ margin-bottom:1em;
 		position: relative;
 		max-width: 500px;
 		margin: 30px auto 0;
+		cursor: pointer;
 	}
 
-	.pre-col,
-	.post-col {
-		max-width:100%;
-	}
+		.pre-col,
+		.post-col {
+			max-width:100%;
+		}
 
 	.pre-col {
+		margin: auto;
 		transition: opacity 0.5s;
 		position: absolute;
 		top: 0;
@@ -130,36 +179,32 @@ margin-bottom:1em;
 	}
 
 
-
-/*.title {
-	margin-left: 0;
-	padding: 0;
-	text-align: left;
-	font-size: 22pt;
-}
-
-.subheader {
-	margin: 0;
-	padding: 0;
-	font-style: italic;
-	font-weight: 100;
-	font-size: 16pt;
-
-}*/
-
-
 .all-text {
 
-	max-width: 785px;
+	max-width: 780px;
+	margin-top: 2em;
+	margin-left: 1em;
+	/*
 	margin: 240px 2em 2em;
 	line-height: 30px;
 	font-weight: lighter;
-	color: rgb(18, 62, 24)
+	color: rgb(18, 62, 24)*/
 
 }
 
-/*.all-text:hover {
-	font-family: "Scala Sans Pro";
-	font-size-adjust: 5%;
+
+@media (max-width:690px){
+	body{
+		margin: auto;
+		padding-top: 6.5em;
+		margin: left;
+	}
 }
-*/
+
+@media (max-width: 515px){
+	body{
+		padding-top: 6.9em;
+	}
+}
+
+

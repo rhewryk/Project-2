@@ -11,9 +11,9 @@ console.log("nothing broken yet.")
 
 	//docHeight = $(document).height();
 	//winHeight = $(window).height();
-   //	fromTop = $(document).scrollTop();
+   	//fromTop = $(document).scrollTop();
 
-   //	scrollRatio = fromTop/(docHeight-winHeight)
+   	//scrollRatio = fromTop/(docHeight-winHeight)
 
    //$(".pre-people")
    			//.css({
@@ -25,16 +25,16 @@ console.log("nothing broken yet.")
    		//});
 
    		
-   		//if(scrollRatio>0.5){
-   			//$(".pre-people").attr("src","post_people_nyc.jpg")
-   			//.css({
-   				//"left":25+500*(scrollRatio-0.5)
+   		if(scrollRatio>0.5){
+   			$(".pre-people").attr("src","post_people_nyc.jpg")
+   			.css({
+   				"left":25+500*(scrollRatio-0.5)
 
-   			//})
-   		//}	
+   			})
+   		}	
    	
 
-   	//console.log(scrollRatio);
+   	console.log(scrollRatio);
    		
    		
 
