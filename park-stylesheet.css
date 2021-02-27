@@ -5,8 +5,10 @@ background:#fcfffd;
 width:5400px;
 height:6000px;
 color:#171010;
-font-family:helvetica;
-font-size:20px;
+font-family:forma-djr-micro, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size:18px;
 text-align:left;
 }
 
@@ -156,12 +158,10 @@ changes to lightblue in the winter
 
 #trash1 {
 	position: relative;
-	/*transform: translateX(10px);*/
 }
 
 #lamp1 {
 	position: relative;
-	/*transform: translateX(-10px);*/
 }
 
 
