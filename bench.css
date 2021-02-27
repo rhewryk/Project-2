@@ -1,7 +1,7 @@
 .loop-left {    				/* the container for both the front and back of the left loop */
 	position: absolute;			
 	top: 95px;
-	left: 510px;		    
+	left: 210px;		    
 	}
 
 	.loop-left-front {
@@ -35,7 +35,7 @@
 .loop-right {    				/* the container for both the front and back of the right loop */
 	position: absolute;			
 	top: 95px;
-	left: 1030px;			    
+	left: 730px;			    
 	}
 
 	.loop-right-front {
@@ -67,7 +67,7 @@
 .loop-left-bottom {
 	position: absolute;			
 	top: 230px;
-	left: 510px;		    
+	left: 210px;		    
 	}
 
 	.loop-left-bottom-front {
@@ -97,7 +97,7 @@
 .loop-right-bottom {
 	position: absolute;			
 	top: 230px;
-	left: 1030px;
+	left: 730px;
 	box-shadow: -20px 0px 0px 0px		    
 	}
 
@@ -136,21 +136,21 @@
 
 .bench01 {
 	top: 0px;
-	left: 490px;
+	left: 190px;
 	width: 570px;
 	height: 20px;
 }
 
 .bench02 {
 	top: 40px;
-	left: 490px;
+	left: 190px;
 	width: 570px;
 	height: 20px;
 }
 
 .bench03 {
 	top: 80px;
-	left: 490px;
+	left: 190px;
 	width: 570px;
 	height: 20px;
 }
@@ -161,7 +161,7 @@
 /* bench-screw01 until bench-screw06 are on the leftmost part of bench */
 .bench-screw01 {
 	top: 8px;
-	left: 515px;
+	left: 215px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -171,7 +171,7 @@
 
 .bench-screw02 {
 	top: 8px;
-	left: 509px;
+	left: 209px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -181,7 +181,7 @@
 
 .bench-screw03 {
 	top: 48px;
-	left: 509px;
+	left: 209px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -191,7 +191,7 @@
 
 .bench-screw04 {
 	top: 48px;
-	left: 515px;
+	left: 215px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -201,7 +201,7 @@
 
 .bench-screw05 {
 	top: 88px;
-	left: 509px;
+	left: 209px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -211,7 +211,7 @@
 
 .bench-screw06 {
 	top: 88px;
-	left: 515px;
+	left: 215px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -222,7 +222,7 @@
 /* bench-screw07 until bench-screw12 are on the middle part of bench */
 .bench-screw07 {
 	top: 8px;
-	left: 773px;
+	left: 473px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -232,7 +232,7 @@
 
 .bench-screw08 {
 	top: 8px;
-	left: 767px;
+	left: 467px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -242,7 +242,7 @@
 
 .bench-screw09 {
 	top: 48px;
-	left: 773px;
+	left: 473px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -252,7 +252,7 @@
 
 .bench-screw10 {
 	top: 48px;
-	left: 767px;
+	left: 467px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -262,7 +262,7 @@
 
 .bench-screw11 {
 	top: 88px;
-	left: 773px;
+	left: 473px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -272,7 +272,7 @@
 
 .bench-screw12 {
 	top: 88px;
-	left: 767px;
+	left: 467px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -283,7 +283,7 @@
 /* bench-screw13 until bench-screw18 are on the rightmost part of bench */
 .bench-screw13 {
 	top: 8px;
-	left: 1038px;
+	left: 738px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -293,7 +293,7 @@
 
 .bench-screw14 {
 	top: 8px;
-	left: 1032px;
+	left: 732px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -303,7 +303,7 @@
 
 .bench-screw15 {
 	top: 48px;
-	left: 1038px;
+	left: 738px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -313,7 +313,7 @@
 
 .bench-screw16 {
 	top: 48px;
-	left: 1032px;
+	left: 732px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -323,7 +323,7 @@
 
 .bench-screw17 {
 	top: 88px;
-	left: 1038px;
+	left: 738px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -333,7 +333,7 @@
 
 .bench-screw18 {
 	top: 88px;
-	left: 1032px;
+	left: 732px;
 	width: 3px;
 	height: 3px; 
 	background: #134c13;
@@ -345,14 +345,14 @@
 
 .bench04 {
 	top: 175px;
-	left: 445px;
+	left: 145px;
 	width: 665px;
 	height: 12.5px; 
 }
 
 .bench18 {
 	top: 185px;
-	left: 445px;
+	left: 145px;
 	width: 665px;
 	height: 10.5px;
 	background: #134c13;
@@ -362,7 +362,7 @@
 
 .bench09 {
 	top: 80px;
-	left: 760px;
+	left:460px;
 	width: 23px;
 	height: 220px;
 }
@@ -371,7 +371,7 @@
 
 .bench10 {
 	top: 15px;
-	left: 507px;
+	left: 207px;
 	width: 14px;
 	height: 85px;
 	background: #134c13;
@@ -380,7 +380,7 @@
 
 .bench11 {
 	top: 15px;
-	left: 765px;
+	left: 465px;
 	width: 14px;
 	height: 85px;
 	background: #134c13;
@@ -389,7 +389,7 @@
 
 .bench12 {
 	top: 15px;
-	left: 1030px;
+	left: 730px;
 	width: 14px;
 	height: 85px;
 	background: #134c13;
@@ -399,7 +399,7 @@
 .left-front {
 	position: absolute;
 	top: 300px;
-	left: 486px;
+	left: 186px;
 	width: 60px;
 	height: 90px;
 	background: white;
@@ -409,7 +409,7 @@
 .left-back {
 	position: absolute;
 	top: 285px;
-	left: 507px;
+	left: 207px;
 	width: 30px;
 	height: 50px;
 	background: white;
@@ -419,7 +419,7 @@
 .right-front {
 	position: absolute;
 	top: 300px;
-	left: 1005px;
+	left: 705px;
 	width: 60px;
 	height: 90px;
 	background: white;
@@ -429,7 +429,7 @@
 .right-back {
 	position: absolute;
 	top: 285px;
-	left: 1010px;
+	left: 710px;
 	width: 30px;
 	height: 50px;
 	background: white;
@@ -442,7 +442,7 @@
 
 	.bench20 {
 		top: 20px;
-		left: 490px;
+		left: 190px;
 		width: 570px;
 		height: 2px;
 		background: #0d280d;
@@ -450,7 +450,7 @@
 
 	.bench21 {
 		top: 60px;
-		left: 490px;
+		left: 190px;
 		width: 570px;
 		height: 2px;
 		background: #0d280d;
@@ -458,7 +458,7 @@
 
 	.bench22 {
 		top: 100px;
-		left: 490px;
+		left: 190px;
 		width: 570px;
 		height: 2px;
 		background: #0d280d;
@@ -466,7 +466,7 @@
 
 	.bench23 {
 		top: 195px;
-		left: 445px;
+		left: 145px;
 		width: 665px;
 		height: 2px;
 		background: #0d280d;
@@ -475,7 +475,7 @@
 
 	.bench24 {
 		top: 185px;
-		left: 431px;
+		left: 131px;
 		width: 0px;
 		height: 0px;
 		border-left: 16px solid white;
@@ -484,7 +484,7 @@
 
 	.bench25 {
 		top: 175px;
-		left: 431px;
+		left: 131px;
 		width: 0px;
 		height: 0px;
 		border-right: 16px solid transparent;
@@ -493,7 +493,7 @@
 
 	.bench26 {
 		top: 175px;
-		left: 1110px;
+		left: 810px;
 		width: 0px;
 		height: 0px;
 		border-left: 16px solid transparent;
@@ -502,7 +502,7 @@
 
 	.bench27 {
 		top: 185px;
-		left: 1110px;
+		left: 810px;
 		width: 0px;
 		height: 0px;
 		border-right: 16px solid white;

@@ -6,14 +6,14 @@
 /* vertical lines */
 
 	.lamp01 {
-		width: 16px;
+		width: 15.5px;
 		height: 220px;
 		top: 280px;
-		left: 51.5px;
+		left: 52px;
 	}
 
 	.lamp02 {
-		width: 2px;
+		width: 1px;
 		height: 220px;
 		top: 280px;
 		left: 65px;
@@ -21,23 +21,23 @@
 	}
 
 	.lamp03 {
-		width: 1.5px;
+		width: 2px;
 		height: 220px;
 		top: 280px;
-		left: 61.5px;
+		left: 61px;
 		background: #2d2c2c;
 	}
 
 	.lamp04 {
-		width: 1px;
+		width: 2px;
 		height: 220px;
 		top: 280px;
-		left: 58px;
+		left: 57px;
 		background: #2d2c2c;
 	}
 
 	.lamp05 {
-		width: 1.2px;
+		width: 1px;
 		height: 220px;
 		top: 280px;
 		left: 54px;
@@ -175,11 +175,11 @@
 /* above shaft-top part under bulb */
 
 	.lamp20 {
-		left: 67.5px;
+		left: 67px;
 		top: 270px;
 		width: 0;
       	height: 0;
-      	border-top: 14px solid transparent;
+      	border-top: 16px solid transparent;
       	border-right: 5px solid white;
 	}
 
@@ -233,8 +233,8 @@
 /* light part */
 
 	.lamp29 {
-		left: 45px;
-		top: 198px;
+		left: 44.57px;
+		top: 197.5px;
 		width: 30px;
 		height: 50px;
 		background: #f2ce8d;
@@ -242,38 +242,37 @@
 		z-index: 0;
 	}
 
-	.lamp30 {
-		left: 44px;
+/*	.lamp30 {
+		left: 45px;
 		top: 197px;
 		width: 30px;
 		height: 33px;
-		background: #f2ce8d;
+		background: red;
 		border-radius: 120% 120% 120% 120%;
 		z-index: 0;
-	}
-
+	}*/
 /* thingy above the actual bulb */
 
 	.lamp31 {
-		left: 42px;
+		left: 39.5px;
 		top: 190px;
-		width: 35px;
-		height: 10px;
-		border-radius: 90% 90% 0 0;
+		border-radius: 40% 40% 0% 0% / 90% 90% 0% 0%;
+		width:40px;
+		height:10px;
 	}
 
 	.lamp32 {
 		left: 49px;
-		top: 188px;
+		top: 187px;
 		width: 22px;
-		height: 3px;
-		border-radius: 30% 30% 0 0;
+		height: 4px;
+		border-radius: 50% 50% 0% 0% / 90% 90% 0% 0%;
 		background: #2d2c2c;
 	}
 
 	.lamp33 {
-		left: 57px;
-		top: 182.5px;
+		left: 57.5px;
+		top: 181.5px;
 		width: 5px;
 		height: 6px;
 		border-radius: 90%;
@@ -293,22 +292,22 @@
 	.lamp35 {
 		background: #3a423b;
 		height: 50px;
-		width: 3px;
+		width: 3.5px;
 		border-top-left-radius: 100%;
 		border-bottom-left-radius: 100%;
 		transform: rotate(-10deg);
 		top: 201px;
-		left: 43.5px;
+		left: 42.5px;
 		box-shadow: -20px #3a423b;
 		z-index: 0;
 	}
 
 	.lamp36 {
 		left: 42px;
-		top: 201px;
+		top: 203px;
 		width: 0;
       	height: 0;
-      	border-top: 16px solid #3a423b;
+      	border-top: 19px solid #3a423b;
       	border-right: 12px solid #f2ce8d;
       	z-index: -2;
 	}
@@ -323,12 +322,12 @@
 		z-index: -1;
 	}
 
-/* thingy around the actual bulb (left side) */
+/* thingy around the actual bulb (right side) */
 	
 	.lamp38 {
 		background: #3a423b;
 		height: 50px;
-		width: 3px;
+		width: 3.5px;
 		border-top-right-radius: 100%;
 		border-bottom-right-radius: 100%;
 		transform: rotate(10deg);
@@ -339,7 +338,7 @@
 	}
 	.lamp39 {
 		left: 65px;
-		top: 201px;
+		top: 203px;
 		width: 0;
       	height: 0;
       	border-left: 12px solid #f2ce8d;
