@@ -96,7 +96,7 @@ right:50px;
 }
 
 .helpsquare {
-	width:120px;
+width:120px;
 height:520px;
 margin:20px;
 background:red;
@@ -164,7 +164,7 @@ changes to lightblue in the winter
 
 #lamp1 {
 	position: relative;
-	transform: translateX(500px);
+	transform: translateX(700px);
 	transform: translateY(2500px);
 }
 
