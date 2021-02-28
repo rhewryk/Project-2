@@ -10,7 +10,20 @@
 }
 
 
-.hello: hover {
-	color: red;
+.hello:hover {
+	color: pink;
 	cursor: pointer;
+
+
+
+}
+
+
+.point01 {
+	width: 25px;
+	height: 25px;
+	background: pink;
+	position: absolute;
+	top: 50px;
+	left: 100px;
 }
