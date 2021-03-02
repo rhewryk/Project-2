@@ -7,7 +7,26 @@
 		<body>
 			<div class="hello"> <p> Hello there! </p> </div>
 
-			<div class-="point01"></div>
+			<div class="point01"></div>
+				<div class="point01-1"></div>
+				<div class="point01-2"></div>
+				<div class="point01-3"></div>
+			<div class="point02"></div>
+				<div class="point02-1"></div>
+				<div class="point02-2"></div>
+				<div class="point02-3"></div>
+			<div class="point03"></div>
+				<div class="point03-1"></div>
+				<div class="point03-2"></div>
+				<div class="point03-3"></div>
+			<div class="point04"></div>
+				<div class="point04-1"></div>
+				<div class="point04-2"></div>
+				<div class="point04-3"></div>
+			<div class="point05"></div>
+				<div class="point05-1"></div>
+				<div class="point05-2"></div>
+				<div class="point05-3"></div>
 
 
 
@@ -32,16 +51,60 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
 	<script>
-		$(".new-curve").mouseenter(function(){
+
+		$("body").mouseenter(function(){
+			$("<audio></audio>").attr({ 
+				'src':'french cafe.wav',
+				'volume': 0.1, 
+				'autoplay':'autoplay'
+			}).appendTo("body");
+});
+
+
+		$(".point01").mouseenter(function(){
 			$("<audio></audio>").attr({ 
 				'src':'door opening.wav', 
 				'autoplay':'autoplay'
 			}).appendTo("body");
 });
 
+		$(".point02").mouseenter(function(){
+			$("<audio></audio>").attr({ 
+				'src':'espresso machine.wav', 
+				'autoplay':'autoplay'
+			}).appendTo("body");
+});
+
+
+		$(".point03").mouseenter(function(){
+			$("<audio></audio>").attr({ 
+				'src':'water and glasses.wav', 
+				'autoplay':'autoplay'
+			}).appendTo("body");
+});
+
+
+		$(".point04").mouseenter(function(){
+			$("<audio></audio>").attr({ 
+				'src':'milk frothing.wav', 
+				'autoplay':'autoplay'
+			}).appendTo("body");
+});
+
+		$(".point05").mouseenter(function(){
+			$("<audio></audio>").attr({ 
+				'src':'restaurant ambience.wav', 
+				'autoplay':'autoplay'
+			}).appendTo("body");
+});
+
+
+
+
+
+
+
 		</script>
-
-
 
 
 

@@ -30,7 +30,7 @@
 	font-style: normal;
 	max-width: 1000px;
 	min-width: 300px;
-	padding-top: 6.4em;
+	padding-top: 7.7em;
  }
 
 
@@ -49,7 +49,7 @@
  }
 
  h2 {
- 	padding-top: 7em;
+ 	padding-top: 7.8em;
  	padding-left: 5.4em;
  	font-family: ff-scala, sans-serif;
  	font-weight: 400;
@@ -60,7 +60,7 @@
 
 
 h3 {
-	padding-top: 15.5em;
+	padding-top: 17.8em;
 	padding-left: 1em;
 	font-size: 15px;
 	font-weight: 400;
@@ -71,7 +71,7 @@ h3 {
 
 h4 {
 	padding-left: 1em;
-	padding-top: 16.9em;
+	padding-top: 19.5em;
 	font-size: 15px;
 	font-weight: 400;
 	font-family: ff-scala-sans-pro, sans-serif;
@@ -196,14 +196,14 @@ margin-bottom: 1em;
 @media (max-width:690px){
 	body{
 		margin: auto;
-		padding-top: 6.5em;
+		padding-top: 7.8em;
 		margin: left;
 	}
 }
 
 @media (max-width: 515px){
 	body{
-		padding-top: 6.9em;
+		padding-top: 7.9em;
 	}
 }
 
