@@ -26,13 +26,13 @@ Different seasons colors
 .theimage {
 	width:700px;
 	position:absolute;
-	top:700px;
-	left:2400px;
+	top:70vh;
+	left:90vw;
 	filter:grayscale(100%);
 }
 
 .theimage:hover {
-	width:900px;
+	/*width:900px;*/
 	filter:grayscale(0%);
 }
 
