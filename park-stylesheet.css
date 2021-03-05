@@ -50,6 +50,18 @@ h2 {
 	left: 6900px;
 }
 
+.centralparkwebsite {
+	position: absolute;
+	top: 4400px;
+	left: 6200px;
+}
+
+.mywebsite {
+	position: absolute;
+	top: 6004px;
+	left: 12px;
+}
+
 .theimage {
 	width:700px;
 	position:absolute;
@@ -182,7 +194,7 @@ changes to lightblue in the winter
 	position: relative;
 	transform: translateX(-132px);
 	top: 4240px;
-	left: 5990px;
+	left: 5500px;
 }
 
 #trash1 {
