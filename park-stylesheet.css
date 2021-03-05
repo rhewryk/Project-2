@@ -23,6 +23,33 @@ Different seasons colors
 
 
 
+h1 {
+	letter-spacing: 1px;
+	line-height: 1em;
+	margin: .5em;
+	font-family: ff-scala-sans-pro, sans-serif;
+}
+
+h2 {
+	margin: .5em;
+	padding-top: .5em;
+	font-family: ff-scala-sans-pro, sans-serif;
+	line-height: .5em;
+	color: #4d4b4b;
+}
+
+.article {
+	position: absolute;
+	top: 1500px;
+	left: 2700px;
+}
+
+.cafe {
+	position: absolute;
+	top: 3400px;
+	left: 6900px;
+}
+
 .theimage {
 	width:700px;
 	position:absolute;
@@ -34,58 +61,59 @@ Different seasons colors
 .theimage:hover {
 	/*width:900px;*/
 	filter:grayscale(0%);
+	cursor: pointer;
 }
 
 .viewofplazahotel {
 width:700px;
 position:absolute;
-top:5000px;
-left:200px;
+top:380vh;
+left:305vw;
 filter:grayscale(100%);
 }
 
 .viewofplazahotel:hover {
-width:900px;
 filter:grayscale(0%);
+cursor: pointer;
 }
 
 .eastsideresivoir {
 width:650px;
 position:absolute;
-top:1500px;
-left:300px;
+top:151vh;
+left:170vw;
 filter:grayscale(100%);
 }
 
 .eastsideresivoir:hover {
 	filter:grayscale(0%);
-	width:900px;
+	cursor: pointer;
 }
 
 .aisleoftrees {
-width:600px;
+width:900px;
 position:absolute;
-top:3000px;
-left:2200px;
+top:285vh;
+left:300vw;
 filter:grayscale(100%);
 }
 
 .aisleoftrees:hover {
 	filter:grayscale(0%);
-	width:900px;
+	cursor: pointer;
 }
 
 .westsideresivoir {
-width:500px;
+width:700px;
 position:absolute;
-bottom:100px;
-left:4900px;
+top:190vh;
+left:260vw;
 filter:grayscale(100%);
 }
 
 .westsideresivoir:hover {
 	filter:grayscale(0%);
-	width:900px;
+	cursor: pointer;
 }
 
 .whitetext {
@@ -153,19 +181,22 @@ changes to lightblue in the winter
 #bench1 {
 	position: relative;
 	transform: translateX(-132px);
-	transform: translateY(5359px);
+	top: 4240px;
+	left: 5990px;
 }
 
 #trash1 {
 	position: relative;
-	left: 4486px;
+	left: 4506px;
 	transform: translateY(323px);
+	top:165vh;
+	left:295vw;
 }
 
 #lamp1 {
 	position: relative;
-	left: 3095px;
-	transform: translateY(2690px);
+	left: 6294px;
+	transform: translateY(2752px);
 }
 
 

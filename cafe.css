@@ -53,8 +53,8 @@
 	background: black;
 	border-radius: 50%;
 	position: absolute;
-	top: 1090px;
-	left: 305px;
+	top: 1015px;
+	left: 1530px;
 	cursor: pointer;
 }
 
@@ -70,70 +70,122 @@
 		opacity: 1;
 	}
 
-	.point02: hover .point02-1{
+	.point02:hover .point02-1{
 		transform: scale(4);
 		opacity: 0;
 		transition: 2.5s;
 	}
 
-	.point02: hover .point02-2{
+	.point02:hover .point02-2{
 		transform: scale(4);
 		opacity: 0;
-		transition: 2.5s 0.5s;
+		transition: all 2.5s 0.5s;
 	}
 
 .point03 {
-	width: 35px;
-	height: 35px;
+	width: 20px;
+	height: 20px;
 	background: black;
 	border-radius: 50%;
 	position: absolute;
-	top: 1200px;
-	left: 400px;
+	top: 1300px;
+	left: 500px;
+	cursor: pointer;
 }
 
-		.point03:hover {
-			cursor: pointer;
-			width: 120px;
-			height: 120px;
-			opacity: 0;
-			transition: 3.5s;
-		}
+	.point03-1,
+	.point03-2,
+	.point03-3 {
+		width: 18px;
+		height: 18px;
+		border: .5px solid #000;
+		border-radius: 50%;
+		position: absolute;
+		top: 1px;
+		left: 1px;
+		opacity: 1;
+	}
+
+	.point03:hover .point03-1{
+		transform: scale(6);
+		opacity: 0;
+		transition: 1s;
+	}
+
+	.point03:hover .point03-2{
+		transform: scale(6);
+		opacity: 0;
+		transition: all 1s 1.8s;
+	}
 
 .point04 {
-	width: 35px;
-	height: 35px;
+	width: 20px;
+	height: 20px;
 	background: black;
 	border-radius: 50%;
 	position: absolute;
 	top: 1500px;
 	left: 1200px;
+	cursor: pointer;
 }
 
-		.point04:hover {
-			cursor: pointer;
-			width: 140px;
-			height: 140px;
-			opacity: 0;
-			transition: 4s;
-		}
+	.point04-1,
+	.point04-2 {
+		width: 18px;
+		height: 18px;
+		border: .5px solid #000;
+		border-radius: 50%;
+		position: absolute;
+		top: 1px;
+		left: 1px;
+		opacity: 1;
+	}
+
+	.point04:hover .point04-1{
+		transform: scale(8);
+		opacity: 0;
+		transition: 2s;
+	}
+
+	.point04:hover .point04-2{
+		transform: scale(8);
+		opacity: 0;
+		transition: all 2s 1.5s;
+	}
 
 .point05 {
-	width: 35px;
-	height: 35px;
+	width: 20px;
+	height: 20px;
 	background: black;
 	border-radius: 50%;
 	position: absolute;
 	top: 1900px;
 	left: 770px;
+	cursor: pointer;
 }
 
-		.point05:hover {
-			cursor: pointer;
-			width: 200px;
-			height: 200px;
-			opacity: 0;
-			transition: 2.5s;
-		}
+	.point05-1,
+	.point05-2 {
+		width: 18px;
+		height: 18px;
+		border: .5px solid #000;
+		border-radius: 50%;
+		position: absolute;
+		top: 1px;
+		left: 1px;
+		opacity: 1;
+	}
+	
+	.point05:hover .point05-1{
+		transform: scale(10);
+		opacity: 0;
+		transition: 2.5s;
+	}
+
+	.point05:hover .point05-2{
+		transform: scale(8);
+		opacity: 0;
+		transition: all 2.5s 1.5s;
+	}
 
 

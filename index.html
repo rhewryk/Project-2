@@ -8,11 +8,12 @@
 		<link rel="stylesheet" href='park-stylesheet.css'>
 	</head>
 	<body>
-		<h1>Welcome to the homepage of Central Park</h1>
-		<h2>The place where you can get lost; currently located on the world wide web</h2>
-		<div> <p> Fancy a read, check out this article <a href="text.html"target="_blank">here</a> </p></div>
+		<h1 class="title">Welcome to the homepage of Central Park</h1>
+		<h2 class="subhead">The place where you can get lost; currently located on the world wide web</h2>
 
-		<div> <p> Come grab a coffee <a href="cafe.html"target="_blank">here</a> </p></div>
+		<div class="article"> <p> Fancy a read, check out this article <a href="text.html"target="_blank">here</a> </p></div>
+
+		<div class="cafe"> <p> Come grab a coffee <a href="cafe.html"target="_blank">here</a> </p></div>
 	
 <img src="IMG_4767.jpg" class="theimage" > </img>
 
@@ -237,17 +238,35 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xUj+30JU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js" integrity="sha512-PsJ1f4lw0Jrga4wbDOvdWs9DFl88C1vlcH2VQYqgljHBmzmqtGivUkzRHWx2ZxFlnysKUcROqLeuOpYh9q4YNg==" crossorigin="anonymous"></script>
 
 	<script>
 
 		$(".theimage").click(function(){
 			$(document).scrollTo(".theimage",200);
-
 		})
 
+		$(".bluecolor").click(function(){
+			$(document).scrollTo(".bluecolor",200);
+		})
 
+		$(".eastsideresivoir").click(function(){
+			$(document).scrollTo(".eastsideresivoir",200);
+		})
+
+		$(".westsideresivoir").click(function(){
+			$(document).scrollTo(".westsideresivoir",200);
+		})
+
+		$(".aisleoftrees").click(function(){
+			$(document).scrollTo(".aisleoftrees",200);
+		})
+
+		$(".viewofplazahotel").click(function(){
+			$(document).scrollTo(".viewofplazahotel",200);
+		})
 
 
 

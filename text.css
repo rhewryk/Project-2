@@ -159,6 +159,18 @@ html, body {
 }
 
 
+.linktonewyorker {
+	font-size: 15px;
+	color: black;
+	padding-left: 1em;
+}
 
+.linktowebsite {
+	font-size: 15px;
+	color: black;
+	padding-left: 1em;
+	line-height: .1px;
+	padding-bottom: 2em;
+}
 
 
