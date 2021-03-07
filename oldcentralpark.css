@@ -5,10 +5,21 @@
 .bridge-loc {
 	position: absolute;
 	width: 600px;
-	left: 60vh;
-	right: 100vw;
+	top: 60vh;
+	left: 100vw;
 }
 
 	.bridge-loc:hover {
+		cursor: pointer;
+	}
+
+.bridge-loc2 {
+	position: absolute;
+	width: 600px;
+	top: 120vh;
+	left: 90vw; 
+}
+
+	.bridge-loc2:hover {
 		cursor: pointer;
 	}
