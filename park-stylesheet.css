@@ -40,7 +40,7 @@ h2 {
 
 .article {
 	position: absolute;
-	top: 1500px;
+	top: 3400px;
 	left: 2700px;
 }
 
@@ -60,6 +60,12 @@ h2 {
 	position: absolute;
 	top: 6004px;
 	left: 12px;
+}
+
+.oldcentralpark {
+	position: absolute;
+	top: 2300px;
+	left: 8000px;
 }
 
 .stairs {

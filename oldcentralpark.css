@@ -1,0 +1,14 @@
+
+
+
+
+.bridge-loc {
+	position: absolute;
+	width: 600px;
+	left: 60vh;
+	right: 100vw;
+}
+
+	.bridge-loc:hover {
+		cursor: pointer;
+	}
