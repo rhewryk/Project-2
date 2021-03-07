@@ -62,6 +62,19 @@ h2 {
 	left: 12px;
 }
 
+.stairs {
+	height: 850px;
+	position: absolute;
+	left: 7104px;
+	top: 2050px;
+	filter: grayscale(100%);
+}
+
+	.stairs:hover {
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
+
 .theimage {
 	width:700px;
 	position:absolute;
@@ -70,11 +83,37 @@ h2 {
 	filter:grayscale(100%);
 }
 
-.theimage:hover {
-	/*width:900px;*/
-	filter:grayscale(0%);
-	cursor: pointer;
+	.theimage:hover {
+		/*width:900px;*/
+		filter:grayscale(0%);
+		cursor: pointer;
+	}
+
+.bridge {
+	width: 900px;
+	position: absolute;
+	filter: grayscale(100%);
+	top: 2300px;
+	left: 800px;
 }
+
+	.bridge:hover {
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
+
+.pond-above {
+	width: 800px;
+	position: absolute;
+	filter: grayscale(100%);
+	top: 325vh;
+	left: 100vw;
+}
+
+	.pond-above:hover {
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
 
 .viewofplazahotel {
 width:700px;
@@ -84,10 +123,10 @@ left:305vw;
 filter:grayscale(100%);
 }
 
-.viewofplazahotel:hover {
-filter:grayscale(0%);
-cursor: pointer;
-}
+	.viewofplazahotel:hover {
+	filter:grayscale(0%);
+	cursor: pointer;
+	}
 
 .eastsideresivoir {
 width:650px;
@@ -97,10 +136,10 @@ left:170vw;
 filter:grayscale(100%);
 }
 
-.eastsideresivoir:hover {
-	filter:grayscale(0%);
-	cursor: pointer;
-}
+	.eastsideresivoir:hover {
+		filter:grayscale(0%);
+		cursor: pointer;
+	}
 
 .aisleoftrees {
 width:900px;
@@ -110,10 +149,10 @@ left:300vw;
 filter:grayscale(100%);
 }
 
-.aisleoftrees:hover {
-	filter:grayscale(0%);
-	cursor: pointer;
-}
+	.aisleoftrees:hover {
+		filter:grayscale(0%);
+		cursor: pointer;
+	}
 
 .westsideresivoir {
 width:700px;
@@ -123,10 +162,10 @@ left:260vw;
 filter:grayscale(100%);
 }
 
-.westsideresivoir:hover {
-	filter:grayscale(0%);
-	cursor: pointer;
-}
+	.westsideresivoir:hover {
+		filter:grayscale(0%);
+		cursor: pointer;
+	}
 
 .whitetext {
 color:red;
@@ -150,10 +189,10 @@ font-weight:lighter;
 padding:10px;
 }
 
-.helpsquare:hover {
-	background:#fcfffd;
-	color:#fcfffd;
-}
+	.helpsquare:hover {
+		background:#fcfffd;
+		color:#fcfffd;
+	}
 
 
 /*
@@ -167,8 +206,8 @@ changes to lightblue in the winter
 .bluecolor {
 	background:lightblue;
 	position:absolute;
-	width:1000px;
-	height:1000px;
+	width:800px;
+	height:800px;
 	top:1500px;
 	left:1700px;
 	border-radius:50%;
@@ -182,9 +221,9 @@ changes to lightblue in the winter
 	padding:10px;
 }
 
-.bluecolor:hover {
-	transform:rotate(365deg);
-}
+	.bluecolor:hover {
+		transform:rotate(365deg);
+	}
 
 
 
