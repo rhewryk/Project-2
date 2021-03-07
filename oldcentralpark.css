@@ -1,25 +1,102 @@
 
 
+body {
+	width:6000px;
+	height:6000px;
+}
 
 
-.bridge-loc {
+
+.bridge1 {
 	position: absolute;
-	width: 600px;
-	top: 60vh;
+	width: 800px;
+	top: 5vh;
+	left: 35vw;
+}
+
+	.bridge1:hover {
+		cursor: pointer;
+	}
+
+.bridge2 {
+	position: absolute;
+	width: 900px;
+	top: 80vh;
+	left: 100vw; 
+}
+
+	.bridge2:hover {
+		cursor: pointer;
+	}
+
+.bridgepond1 {
+	position: absolute;
+	width: 800px;
+	top: 140vh;
+	left: 190vw;
+}
+
+	.bridgepond1:hover {
+		cursor: pointer;
+	}
+
+.bridgepond2 {
+	position: absolute;
+	width: 900px;
+	top: 165vh;
+	left: 55vw;
+}
+
+	.bridgepond2:hover {
+		cursor: pointer;
+	}
+
+.bridgepond3 {
+	position: absolute;
+	width: 1000px;
+	top: 250vh;
 	left: 100vw;
 }
 
-	.bridge-loc:hover {
+	.bridgepond3:hover {
 		cursor: pointer;
 	}
 
-.bridge-loc2 {
+.bridgepond4 {
 	position: absolute;
-	width: 600px;
-	top: 120vh;
-	left: 90vw; 
+	width: 900px;
+	top: 345vh;
+	left: 150vw;
 }
 
-	.bridge-loc2:hover {
+	.bridgepond4:hover {
 		cursor: pointer;
 	}
+
+.pond1 {
+	position: absolute;
+	width: 750px;
+	top: 120vh;
+	left: 250vw;
+}
+
+	.pond1:hover {
+		cursor: pointer;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
