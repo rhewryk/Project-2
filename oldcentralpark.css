@@ -1,10 +1,16 @@
 
 
 body {
-	width:6000px;
+	width:6500px;
 	height:6000px;
 }
 
+
+
+.presentday-centralpark {
+	font-size: 20px;
+	padding-left: .5em;
+}
 
 
 .bridge1 {
@@ -75,8 +81,8 @@ body {
 
 .pond1 {
 	position: absolute;
-	width: 750px;
-	top: 120vh;
+	width: 850px;
+	top: 230vh;
 	left: 250vw;
 }
 
