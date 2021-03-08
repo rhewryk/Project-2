@@ -41,13 +41,13 @@ h2 {
 .article {
 	position: absolute;
 	top: 3400px;
-	left: 2700px;
+	left: 2800px;
 }
 
 .cafe {
 	position: absolute;
-	top: 3400px;
-	left: 6900px;
+	top: 3300px;
+	left: 6750px;
 }
 
 .centralparkwebsite {
@@ -65,11 +65,37 @@ h2 {
 .oldcentralpark {
 	position: absolute;
 	top: 2300px;
-	left: 8000px;
+	left: 7900px;
 }
 
+.garden {
+	position: absolute;
+	filter: grayscale(100%);
+	width: 800px;
+	top: 365vh;
+	left: 200vw;
+}
+
+	.garden:hover {
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
+
+.reflection {
+	position: absolute;
+	filter: grayscale(100%);
+	width: 1000px;
+	top: 395vh;
+	left: 400vw;
+}
+
+	.reflection:hover {
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
+
 .stairs {
-	height: 850px;
+	height: 900px;
 	position: absolute;
 	left: 7104px;
 	top: 2050px;
@@ -95,6 +121,45 @@ h2 {
 		cursor: pointer;
 	}
 
+.night {
+	width: 1000px;
+	position: absolute;
+	filter: grayscale(100%);
+	top: 110vh;
+	left: 360vw;
+}
+
+	.night:hover {
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
+
+.ponds {
+	position: absolute;
+	filter: grayscale(100%);
+	width: 800px;
+	top: 25vh;
+	left: 180vw;
+}
+
+	.ponds:hover {
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
+
+.sidepond {
+	position: absolute;
+	filter: grayscale(100%);
+	width: 600px;
+	top: 50vh;
+	left: 272vw;
+}
+
+	.sidepond:hover {
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
+
 .bridge {
 	width: 900px;
 	position: absolute;
@@ -113,7 +178,7 @@ h2 {
 	position: absolute;
 	filter: grayscale(100%);
 	top: 325vh;
-	left: 100vw;
+	left: 105vw;
 }
 
 	.pond-above:hover {
@@ -122,10 +187,10 @@ h2 {
 	}
 
 .viewofplazahotel {
-width:700px;
+width:900px;
 position:absolute;
-top:380vh;
-left:305vw;
+top:370vh;
+left:295vw;
 filter:grayscale(100%);
 }
 

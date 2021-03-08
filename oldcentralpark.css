@@ -1,11 +1,16 @@
 
 
 body {
-	width:6500px;
+	width:8500px;
 	height:6000px;
 }
 
 
+.library {
+	position: absolute;
+	top: 415vh;
+	left: 420vw;
+}
 
 .presentday-centralpark {
 	font-size: 20px;
@@ -90,9 +95,49 @@ body {
 		cursor: pointer;
 	}
 
+.aerial {
+	position: absolute;
+	width: 1300px;
+	top: 330vh;
+	left: 425vw;
+}
 
+	.aerial:hover {
+		cursor: pointer;
+	}
 
+.park-loc {
+	position: absolute;
+	width: 800px;
+	top: 370vh;
+	left: 245vw;
+}
 
+	.park-loc:hover {
+		cursor: pointer;
+	}
+
+.park2-loc {
+	position: absolute;
+	width: 700px;
+	top: 400vh;
+	left: 340vw;
+}
+
+	.park2-loc:hover {
+		cursor: pointer;
+	}
+
+.pond2 {
+	position: absolute;
+	width: 800px;
+	top: 260vh;
+	left: 340vw;
+}
+
+	.pond2:hover {
+		cursor: pointer;
+	}
 
 
 

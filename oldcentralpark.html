@@ -7,10 +7,9 @@
 	<body>
 		<div class="presentday-centralpark"> <p> Go back to <a href="index.html" style="color: green">present-day Central Park</a> </p></div>
 
+		<div class="library"> <p> Visit the <a href="https://www.loc.gov/photos/?q=central+park" style="color: brown">Library of Congress</a> </p></div>
 
 
-
-			
 			<img src="bridge_loc.jpg" class="bridge1" > </img>
 
 			<img src="bridge_loc2.jpg" class="bridge2" > </img>
@@ -25,10 +24,13 @@
 
 			<img src="pond_loc.jpg" class="pond1" > </img>
 
+			<img src="aerial_centralpark_loc.jpg" class="aerial" > </img>
 
+			<img src="park_loc.jpg" class="park-loc" > </img>
 
+			<img src="park2_loc.jpg" class="park2-loc" > </img>
 
-
+			<img src="pond2_loc.jpg" class="pond2" > </img>
 
 
 
@@ -67,17 +69,21 @@
 			$(document).scrollTo(".pond1",300);
 		})
 
+		$(".aerial").click(function(){
+			$(document).scrollTo(".aerial",400);
+		})
 
+		$(".park-loc").click(function(){
+			$(document).scrollTo(".park-loc",500);
+		})
 
+		$(".park2-loc").click(function(){
+			$(document).scrollTo(".park2-loc",400);
+		})
 
-
-
-
-
-
-
-
-
+		$(".pond2").click(function(){
+			$(document).scrollTo(".pond2",500);
+		})
 
 
 	</script>
